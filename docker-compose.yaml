@@ -21,7 +21,7 @@ services:
 
   tweb.production:
     container_name: tweb.production
-    image: ghcr.io/roon9e/webk:latest
+    image: ghcr.io/kagieiev-ops/webk:latest
     restart: unless-stopped
     env_file:
       - .env
